@@ -1,0 +1,74 @@
+html, body{
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+.google{
+	padding-top: 180px;
+	text-align: center;
+	display: block;
+}
+.searchbar{
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+
+}
+.navbar{
+	text-align: right;
+	position: relative;
+	margin-right: 20px;
+}
+.navlist{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+li{
+	display: inline;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.footer{
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	width: 98%;
+	height: 60px;
+}
+.r_foot{
+	text-align: right;
+	float: right;
+	display: inline;
+}
+.l_foot{
+	text-align: right;
+	float: left;
+	display: inline;
+}
+.wrapper{
+	min-height: 100%;
+	position: relative;
+}
+#seachform{
+	width:500px;
+	height: 30px;
+	margin: 0 auto;
+}
+#searchform input{
+	width: 500px;
+	height: 30px;
+	margin-bottom: 18px; 
+}
+.buttons input{
+	width: 125.75px;
+	height: 36px;
+}
+.navlist li{
+	font-size: 1.5em;
+}
